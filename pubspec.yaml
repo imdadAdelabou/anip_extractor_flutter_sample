@@ -7,9 +7,13 @@ environment:
   sdk: '>=3.4.0 <4.0.0'
 
 dependencies:
+  file_picker: ^8.1.4
   flutter:
     sdk: flutter
+  flutter_svg: ^2.0.15
   google_fonts: ^6.2.1
+  http: ^1.2.2
+  path: ^1.9.0
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +22,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+
+
